@@ -10,7 +10,7 @@ genai.configure(api_key=os.environ.get("API_KEY", "your api key"))
 class DrawingBoard:
     def __init__(self, root):
         self.root = root
-        self.root.title("Drawing Board")
+        self.root.title("Drip 🎨")
 
         self.canvas = tk.Canvas(self.root, bg='black', width=500, height=500, bd=0, highlightthickness=0)
         self.canvas.pack(padx=10, pady=10)
